@@ -1,0 +1,376 @@
+# -*- mode:org; fill-column:79; -*-
+
+#+title:Typescript---The Complete Developer's Guide
+#+subtitle:Master Typescript by learning popular design patterns and building complex projects. Includes React and Express!
+#+author:Stephen Grider, Udemy
+#+date:2019-06-17 16:27
+#+macro:version Version 0.0.1
+#+texinfo:@insertcopying
+
+* Introduction
+:PROPERTIES:
+:unnumbered: t
+:END:
+Created by Stephen Grider---Last updated 6/2019
+** What You Will Learn
+- Master design patterns for building large applications
+- Understand Composition vs Inheritance, and when to use each
+- Assemble reusable boilerplates for your own Typescript projects
+- Integrate Typescript into React/Redux or Express projects
+- Write reusable code powered by classes and interfaces
+** Description
+Composition vs Inheritance? You'll understand it.  Build your own web
+framework? You'll do it.  Typescript with React/Redux?  It's here!
+
+This is the best course online for mastering Typescript.
+
+Every other course online teaches you the basic syntax and features of
+Typescript, but only this course will show you how to apply Typescript on real
+projects, instructing you how to build large, successful projects through
+example.
+
+Typescript is a 'super-set' of Javascript.  That means that if you already know
+Javascript, you are ready to take this course.  Typescript adds in several
+important features to Javascript, including a type system.  This type system is
+designed to help you catch errors during development, rather than when you are
+running your code.  That means you'll be twice as productive by catching bugs
+earlier in development.  But besides the type system, Typescript also provides
+several tools for structuring large codebases and writing truly reusable code.
+
+{{{heading(Mastering Typescript by reading the documentation alone is challenging.)}}}
+
+Although you might know what a 'typed array' or an 'interface' is, the
+documentation (and other courses!) don't show you where to use this features,
+or how to use them effectively.  The goal of this course is to help you
+understand why each feature of Typescript exists, and exactly where to use
+them.
+
+{{{heading(Top companies are hungry for Typescript developers.)}}}
+
+Some of the largest web apps today are being built with Typescript.  Employers
+are scrambling to find engineers who are fluent with this cutting edge system.
+Solid knowledge of Typescript will make you far more employable, by giving you
+a unique skill that few other engineers possess.
+
+{{{heading(Planning on building your own apps?)}}}
+
+Using Typescript will help you structure your project correctly from day one,
+ensuring that you won't be crushed under technical debt at some critical stage
+of your company.  In this course, you'll learn how to write reusable code, with
+a tremendous emphasis on leveraging classes and interfaces to make swappable
+'widgets'.  You will be able to reconfigure your apps on the fly to build
+wildly different features with only a minimum amount of effort.
+
+{{{heading(Learn from someone who has worked on one of the largest Typescript
+projects around.)}}}
+
+On professional projects of my own, I have developed plugins for an
+open-source, browser-based code editor called Theia.  The Theia project is
+absolutely gargantuan in scale, encompassing hundreds of thousands of lines of
+code, all written in Typescript.  This project works only thanks to the power
+of Typescript.
+
+{{{heading(But don't just take my word for it - check out the reviews for this
+course!)}}}
+
+You'll see that other engineers, just like yourself, have had great success and
+acquired a new understanding of how to build scalable web applications.
+** Skills You Will Master
+There is just too much content in this course to summarize in a few short
+words, but here is a partial listing of the different skills you'll master:
+
+- Understand why Composition vs Inheritance is the most mis-understood topic in
+  the Javascript community
+
+- Master the fundamental features of Typescript by working on real world
+  projects
+
+- We'll build a custom front-end framework from scratch that you can use in
+  place of React or Angular on your own personal projects
+
+- Comprehend the complex interplay between classes and interfaces, and why
+  these two pieces of Typescript enable you to build incredibly reusable code
+
+- Dive deeper into Typescript with decorators, which we'll use to build a
+  custom integration between Typescript and Express
+
+- Structure your React and Redux applications more confidently by understanding
+  how to couple them with Typescript
+
+- Skip the documentation for third party libraries by fluently reading type
+  definition files
+
+- Learn just how smart Typescript is by experiencing how deeply it analyzes
+  your code for errors
+** About the Author
+- Stephen Grider, Engineering Architect
+
+
+Stephen Grider has been building complex Javascript front ends for top
+corporations in the San Francisco Bay Area. With an innate ability to simplify
+complex topics, Stephen has been mentoring engineers beginning their careers in
+software development for years, and has now expanded that experience onto
+Udemy, authoring the highest rated React course. He teaches on Udemy to share
+the knowledge he has gained with other software engineers. Invest in yourself
+by learning from Stephen's published courses.
+* Getting Started with Typescript
+:PROPERTIES:
+:section:  1
+:lectures: 8
+:time:     41 min
+:END:
+** TypeScript Overview
+** Environment Setup
+** A First App
+** Executing TypeScript Code
+** One Quick Change
+** Catching Errors with TypeScript
+* What is a Type System
+:PROPERTIES:
+:section:  2
+:time:     20 min
+:lectures: 6
+:END:
+** Course Overview
+** Types
+** More on Types
+** Examples of Types
+** Where do We Use Types
+** Quiz 1---Types
+* Type Annotations in Action
+:PROPERTIES:
+:section:  3
+:time:     41 min
+:lectures: 9
+:END:
+** Type Annotations and Inference
+** Annotations with Variables
+** Object Literal Annotations
+** Annotations Around Functions
+** Understanding Inferance
+** The =any= Type
+** Fixing the =any= Type
+** Delayed Initialization
+** When Inferance Doesn't Work
+* Annotations with Functions and Objects
+:PROPERTIES:
+:section:  4
+:lectures: 6
+:time:     26 min
+:END:
+** More on Annotations Around Functions
+** Inference Around Functions
+** Annotations for Anonymous Functions
+** Void and Never
+** Destructuring with Annotations
+** Annotations Around Objects
+* Mastering Typed Arrays
+:PROPERTIES:
+:section:  5
+:time:     13 min
+:lectures: 4
+:END:
+** Arrays in TypeScript
+** Why Typed Arrays
+** Multiple Types in Arrays
+** When to Use Typed Arrays
+* Tuples in TypeScript
+:PROPERTIES:
+:section:  6
+:time:     13 min
+:lectures: 3
+:END:
+** Tuples in TypeScript
+** Tuples in Action
+** Why Tuples
+* The All-Important Interface
+:PROPERTIES:
+:section:  7
+:lectures: 8
+:time:     26 min
+:END:
+** Interfaces
+** Long Type Annotations
+** Fixing Long Annotations with Interfaces
+** Syntax Around Interfaces
+** Functions in Interfaces
+** Code Reuse with Interfaces
+** General Plan with Interfaces
+* Building Functionality With Classes
+:PROPERTIES:
+:section:  8
+:time:     25 min
+:lectures: 6
+:END:
+** Classes
+** Basic Inheritance
+** Instance Method Modifiers
+** Fields in Classes
+** Fields with Inheritance
+** Where to Use Classes
+* Design Patterns with TypeScript
+:PROPERTIES:
+:section:  9
+:lectures: 22
+:time:     2 hours 13 min
+:END:
+** App Overview
+** Bundling with Parcel
+** Project Structure
+** Generating Random Data
+** Type Definition Files
+** Using Type Definition Files
+** Export Statements in TypeScript
+** Defining a Company
+** Adding Google Maps Support
+** Google Maps Integration
+** Exploring Type Definition Files
+** Hiding Functionality
+** Why Use Private Modifiers
+** Adding Markers
+** Duplicate Code
+** One Possible Solution
+** Restricting Access with Interfaces
+** Implicit Type Checks
+** Showing Popup Windows
+** Updating Interface Definitions
+** Optional Implements Clauses
+** App Wrapup
+* More on Design Patterns
+:PROPERTIES:
+:section:  10
+:time:     2 hours 35 min
+:lectures: 24
+:END:
+** More App Overview
+** Configuring the TS Compiler
+** Concurrent Compilation and Execution
+** A Simple Sorting Algorithm
+** Sorter Scaffolding 
+** Sorting Implementation
+** Two Huge Issues
+** TypeScript is Really Smart
+** Type Guards
+** Why is this Bad
+** Extracting Key Logic
+** Separating Swappping and Comparison
+** The Big Reveal
+** Interface Definition
+** Sorting Arbitrary Collections
+** Linked List Implementation
+** Completed Linked List Code
+** Just ... One ... More ... Fix
+** Integrating the Sort Method
+** Issues with Inheritance
+** Abstract Classes
+** Why Use Abstract Classes
+** Solving All Issues with Abstract Classes
+** Interfaces vs Abstract Classes
+* Reusable Code
+:PROPERTIES:
+:section:  11
+:lectures: 37
+:time:     3 hours 8 min
+:END:
+** Project Overview
+** Project Setup
+** CSV Data
+** Type Definition Files---Again
+** Reading CSV Files
+** Running an Analysis
+** Losing Dataset Context
+** Using Enums
+** When to Use Enums
+** Extracting CSV Reading
+** Data Types
+** Converting Data Strings to Dates
+** Converting Row Values
+** Type Assertions
+** Describing a Row with a Tuple
+** Not Done with FileReader Yet
+** Understanding Refactor 1
+** Creating Abstract Classes
+** Variable Types with Generics
+** Applying a Type to a Generic Class
+** Alternate Refactor
+** Interface-Based Approach
+** Extracting Match References---Again
+** Transforming Data
+** Updating Reader References
+** Inheritance vs Composition
+** More on Inheritance vs Composition
+** A Huge Misconception Around Composition
+** Goal Moving Forward
+** A Composition-Based Approach
+** Implementing an Analyzer Class
+** Building the Reporter
+** Putting it all Together
+** Generating HTML Reports
+** One Last Thing
+** Oops My Bad
+** App Wrapup
+* Advanced Generics
+:PROPERTIES:
+:section:  12
+:END:
+* Let's Build a Web Framework
+:PROPERTIES:
+:section:  13
+:END:
+* Express and TypeScript Integration
+:PROPERTIES:
+:section:  14
+:END:
+* Decorators
+:PROPERTIES:
+:section:  15
+:END:
+* Advanced Express and TypeScript Integration
+:PROPERTIES:
+:section:  16
+:END:
+* React and Redux with TypeScript
+:PROPERTIES:
+:section:  17
+:END:
+
+* Copying
+:PROPERTIES:
+:copying:  t
+:END:
+{{{title}}} by {{{author}}} \copy 2019
+
+Outline {{{date}}} {{{version}}} by Pinecone062 \copy 2019
+* Export Settings                                                  :noexport:
+** Texinfo Export Settings
+#+texinfo_filename:typescript-dev-guide.info
+#+texinfo_class: info
+#+texinfo_post_header:
+#+texinfo_dir_category:TypeScript
+#+texinfo_dir_title:TypeScript Complete Dev Guide
+#+texinfo_dir_desc:Master TypeScript from Stephen Grider on Udemy
+#+texinfo_printed_title:TypeScript---The Complete Developer's Guide
+
+** HTML Export Settings
+#+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t
+#+options: html-scripts:t html-style:t html5-fancy:t tex:t H:4
+#+html_doctype: html5
+#+html_container: div
+#+description:
+#+keywords:
+#+html_link_home:
+#+html_link_up:
+#+html_mathjax:
+#+html_head:
+#+html_head_extra:
+#+infojs_opt:
+#+creator: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.2 (<a href="https://orgmode.org">Org</a> mode 9.2.3)
+#+latex_header:
+* Macro Definitions                                                :noexport:
+#+macro:heading @@texinfo:@heading @@@@html:<h4> @@$1@@html:</h4>@@
+#+macro:subheading @@texinfo:@subheading @@@@html:<h5> @@$1@@html:</h5>@@
+
+* Local Variables                                                  :noexport:
+# Local variables:
+# time-stamp-pattern:"8/^\\#\\+date:%:y-%02m-%02d %02H:%02M$"
+# End:
