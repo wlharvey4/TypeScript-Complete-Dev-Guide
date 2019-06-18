@@ -3,8 +3,8 @@
 #+title:Typescript---The Complete Developer's Guide
 #+subtitle:Master Typescript by learning popular design patterns and building complex projects. Includes React and Express!
 #+author:Stephen Grider, Udemy
-#+date:2019-06-17 16:27
-#+macro:version Version 0.0.1
+#+date:2019-06-18 14:12
+#+macro:version Version 0.0.2
 #+texinfo:@insertcopying
 
 * Introduction
@@ -312,27 +312,184 @@ by learning from Stephen's published courses.
 * Advanced Generics
 :PROPERTIES:
 :section:  12
+:time:     20 min
+:lectures: 4
 :END:
+** More on Generics
+** Type Inference with Generics
+** Function Generics
+** Generic Constraints
 * Let's Build a Web Framework
 :PROPERTIES:
 :section:  13
+:lectures: 72
+:time:     6 hours 51 min
 :END:
+** App Overview
+** Parcel Setup
+** Framework Structure
+** Designing the User
+** Retrieving User Properties
+** Optional Interface Properties
+** An Eventing System
+** Listener Support
+** Storing Event Listeners
+** Dynamic Array Creation
+** Triggering Event Callbacks
+** Adding JSON Server
+** Understanding REST Conventions
+** Adding Fetch Functionality
+** Successfully Fetching Model Data
+** Saving User Data
+** Refactoring With Composition
+** Re-Integrating Eventing
+** Composition With Nested Objects
+** A More Complicated Extraction
+** Options for Adapting Sync
+** Refactoring Sync
+** Generic Constraints Around Sync
+** Connecting Sync Back to User
+** Optional Properties
+** Extracting an Attributes Class
+** The Get Method's Shortcoming
+** Two Important Rules
+** An Advanced Generic Constraint
+** Re-Integrating Attributes
+** Composition is Delegation
+** Reminder on Accessors
+** Passthrough Methods
+** A Context Issue
+** Setting Data While Triggering
+** Fetching User Data
+** Saving Data
+** Composition vs Inheritance...Again
+** Extracting a Model Class
+** Extending the User
+** Final User Refactor
+** Model Wrapup
+** Shortened Passthrough Methods
+** User's Collection
+** Implementing a User's Collection
+** Parsing User JSON
+** Generic User Collection
+** A Class Method for Collections
+** View Classes
+** Building the UserForm
+** The UserForm's Render Method
+** Rendering HTML
+** Defining an Events Map
+** Binding Event Handlers
+** Adding Model Properties
+** Binding Events on Class Name
+** Adding Methods to the User
+** Re-Rendering on Model Change
+** Reading Input Text
+** Strict Null Checks
+** Reusable View Logic
+** Extracting a View Class
+** Extending with Generic Constraints
+** Saving Data From a View
+** UserEdit and UserShow
+** Nesting with Regions
+** Mapping Regions
+** Testing Region Mapping
+** View Nesting
+** Collection Views
+** CollectionView Implementation
+** App Wrapup
+
 * Express and TypeScript Integration
 :PROPERTIES:
 :section:  14
+:time:     1 hour 36 min
+:lectures: 16
 :END:
+** TypeScript with JS Libraries
+** App Overview
+** Project Setup
+** Basic Routes with Express
+** Using an Express Router
+** Parsing Form Bodies
+** Why Doesn't Express Play Nicely with TS
+** Issues with Type Definition Files
+** Dealing with Poor Type Defs
+** Wiring Up Sessions
+** Checking Login Status
+** Logging Out
+** Protecting Routes
+** A Closer Integration
+** The Refactoring Process
+** Prototypes Reminder
 * Decorators
 :PROPERTIES:
 :section:  15
+:lectures: 7
+:time:     37 min
 :END:
+** Decorators in TypeScript
+** Details on Decorators
+** Property Descriptors
+** Wrapping Methods with Descriptors
+** Decorator Factories
+** Decorators Around Properties
+** More on Decorators
 * Advanced Express and TypeScript Integration
 :PROPERTIES:
 :section:  16
+:time:     2 hours 4 min
+:lectures: 22
 :END:
+** A Quick Disclaimer
+** Project Overview
+** Why is this Hard
+** Solution Overview
+** Basics of Metadata
+** Practical Metadata
+** Let's Refactor
+** The 'Get' Decorator
+** The Controller Decorator
+** Proof of Concept
+** A Few Fixups
+** Defining a Route Binder
+** Closed Method Sets with Enums
+** Metadata Keys
+** The 'Use' Decorator
+** Testing Use
+** Body Validators
+** Automated Validation
+** Testing Automated Validation
+** Fixing Routes
+** Using Property Descriptors for Checking
+** App Wrapup
 * React and Redux with TypeScript
 :PROPERTIES:
 :section:  17
+:lectures: 23
+:time:     1 hour 43 min
 :END:
+** React and Redux Overview
+** App Overview
+** Generating the App
+** Simple Components
+** Interfaces with Props
+** Handling Component State
+** Confusing Component State
+** Functinoal Components
+** Redux Setup
+** Action Creators with TypeScript
+** Action Types Enum
+** The Generic Dispatch Function
+** A Reducer with Enums
+** Validating Store Structure
+** Connecting a Component to Redux
+** Rendering a List
+** Adding in Delete Functionality
+** Breaking Out Action Creators
+** Expressing Actions as Type Union
+** Type Guards in Reducers
+** Again Type Definition Files
+** Tracking Loading with Component State
+** App Wrapup
 
 * Copying
 :PROPERTIES:
